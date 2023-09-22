@@ -15,7 +15,7 @@ let questions = [
       ],
     },
     {
-      numb: 2,
+      numb: 1,
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
@@ -29,7 +29,7 @@ let questions = [
       ],
     },
     {
-      numb: 3,
+      numb: 1,
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
@@ -43,7 +43,7 @@ let questions = [
       ],
     },
     {
-      numb: 4,
+      numb: 1,
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
@@ -57,7 +57,7 @@ let questions = [
       ],
     },
     {
-      numb: 5,
+      numb: 1,
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
@@ -71,7 +71,7 @@ let questions = [
       ],
     },
     {
-      numb: 6,
+      numb: 1,
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
@@ -80,7 +80,7 @@ let questions = [
       options: ["Flamengo", "São Paulo", "Palmeiras", "Santos"],
     },
     {
-      numb: 7,
+      numb: 1,
       category: "General Knowledge",
       type: "multiple",
       difficulty: "easy",
