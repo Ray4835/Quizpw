@@ -37,7 +37,7 @@ continue_btn.onclick = () => {
 
   function startQuiz() {    
     loader.classList.add("hidden");
-    start_btn_home.classList.remove("hidden");
+    //start_btn_home.classList.remove("hidden");
     //quiz_box.classList.add("activeQuiz"); 
     selecionarAleatorio(questions, questions.length)
     escolherTema()
