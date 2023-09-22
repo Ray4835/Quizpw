@@ -34,11 +34,12 @@ continue_btn.onclick = () => {
 
   loader.classList.remove("hidden");
   const myTimeout = setTimeout(startQuiz, 3000);
-selecionarAleatorio(questions, questions.length)
+
   function startQuiz() {    
     loader.classList.add("hidden");
     start_btn_home.classList.remove("hidden");
     quiz_box.classList.add("activeQuiz"); 
+    selecionarAleatorio(questions, questions.length)
     showQuetions(0); 
     queCounter(1); 
     startTimer(15); 
