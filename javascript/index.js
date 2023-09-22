@@ -12,7 +12,7 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
-
+var aleatorios = []
 const loader = document.getElementById("loader");
 loader.classList.add("hidden");
 
@@ -39,6 +39,9 @@ continue_btn.onclick = () => {
     loader.classList.add("hidden");
     start_btn_home.classList.remove("hidden");
     quiz_box.classList.add("activeQuiz"); 
+	
+	selecionarAleatorio(questions, questions.length)
+	
     showQuetions(0); 
     queCounter(1); 
     startTimer(15); 
@@ -92,29 +95,30 @@ next_btn.onclick = () => {
   }
 };
 
-// getting questions and options from array
+// INSERINDO QUESTOES
+
 function showQuetions(index) {
   loader.classList.add("hidden");
   const que_text = document.querySelector(".que_text");
-  //creating a new span and div tag for question and option and passing the value using array index
+  const numPergunta = index +1
   let que_tag =
     "<span>" +
-    questions[index].numb +
+    numPergunta+
     ". " +
-    questions[index].question +
+    aleatorios[index].question +
     "</span>";
   let option_tag =
     '<div class="option"><p class="choice-prefix">A</p><p class="choice-text" data-number="1"><span class="question">' +
-    questions[index].options[0] +
+    aleatorios[index].options[0] +
     "</span></div>" +
     '<div class="option"><p class="choice-prefix">B</p><p class="choice-text" data-number="2"><span class="question">' +
-    questions[index].options[1] +
+    aleatorios[index].options[1] +
     "</span></p></div>" +
     '<div class="option"><p class="choice-prefix">C</p><p class="choice-text" data-number="3"><span class="question">' +
-    questions[index].options[2] +
+    aleatorios[index].options[2] +
     "</span></p></div>" +
     '<div class="option"><p class="choice-prefix">D</p><p class="choice-text" data-number="4"><span class="question">' +
-    questions[index].options[3] +
+    aleatorios[index].options[3] +
     "</span></p></div>";
   que_text.innerHTML = que_tag; //adding new span tag inside que_tag
   option_list.innerHTML = option_tag; //adding new div tag inside option_tag
@@ -254,4 +258,20 @@ function queCounter(index) {
     questions.length +
     "</p> Questões</span>";
   bottom_ques_counter.innerHTML = totalQueCounTag; //adding new span tag inside bottom_ques_counter
+}
+
+
+//Aleatória
+
+function selecionarAleatorio(vetor, quantidade) {
+  const selecionados = [];
+  while (selecionados.length < quantidade) {
+      const indiceAleatorio = Math.floor(Math.random() * vetor.length);
+      const elementoAleatorio = vetor[indiceAleatorio];
+      if (!selecionados.includes(elementoAleatorio)) {
+          selecionados.push(elementoAleatorio);
+      }
+  }
+  return aleatorios = selecionados;
+  
 }
