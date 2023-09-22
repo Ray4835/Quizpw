@@ -137,7 +137,7 @@ function optionSelected(answer) {
   clearInterval(counter); //clear counter
   clearInterval(counterLine); //clear counterLine
   let userAns = answer.querySelector(".choice-text").textContent; //getting user selected option
-  let correcAns = questions[que_count].answer; //getting correct answer from array
+  let correcAns = aleatorios[que_count].answer; //getting correct answer from array
   const allOptions = option_list.children.length; //getting all option items
   if (userAns == correcAns) {
     //if user selected option is equal to array's correct answer
