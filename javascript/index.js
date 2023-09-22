@@ -38,15 +38,19 @@ continue_btn.onclick = () => {
   function startQuiz() {    
     loader.classList.add("hidden");
     start_btn_home.classList.remove("hidden");
-    quiz_box.classList.add("activeQuiz"); 
+    //quiz_box.classList.add("activeQuiz"); 
     selecionarAleatorio(questions, questions.length)
-    showQuetions(0); 
-    queCounter(1); 
-    startTimer(15); 
-    startTimerLine(0);
+    escolherTema()
+    //showQuetions(0);
+    //queCounter(1); 
+    //startTimer(15); 
+    //startTimerLine(0);
   }
 };
 
+function escolherTema(){
+  
+}
 let timeValue = 15;
 let que_count = 0;
 let que_numb = 1;
