@@ -88,5 +88,14 @@ let questions = [
       answer: "Richard Branson",
       options: ["Richard Branson","Alan Sugar", "Donald Trump", "Bill Gates"],
     },
+    {
+      numb: 2,
+      category: "ecu",
+      type: "multiple",
+      difficulty: "easy",
+      question: "jose viado? ",
+      answer: "sim",
+      options: ["não","naçd", "sim", "sagtefr"],
+    },
   ];
   
