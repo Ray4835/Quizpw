@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    background-color: e380ff;
+    background-color: #5a0e6b;
     font-size: 62.5%;
 }
 
@@ -15,8 +15,8 @@
 }
 
 ::selection {
-    color: #fff;
-    background: #007bff;
+    color: #000000;
+    background: #9312b0;
 }
 
 /* Home - index.html */
