@@ -15,87 +15,216 @@ let questions = [
       ],
     },
     {
+      {
       numb: 1,
       category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "What does CSS stand for?",
-      answer: "Cascading Style Sheet",
+      question: "Qual a montanha mais alta do mundo?",
+      answer: "Monte Everest"
       options: [
-        "Common Style Sheet",
-        "Colorful Style Sheet",
-        "Computer Style Sheet",
-        "Cascading Style Sheet",
+        "Pico da Neblina",
+        "Dhaulagiri",
+        "Monte Chimborazo",
+        "Monte Everest",
       ],
     },
-    {
+{
       numb: 1,
-      category: "General Knowledge",
+      category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "What does PHP stand for?",
-      answer: "Hypertext Preprocessor",
+      question: "Onde se localiza Machu Picchu?",
+      answer: "Peru"
       options: [
-        "Hypertext Preprocessor",
-        "Hypertext Programming",
-        "Hypertext Preprogramming",
-        "Hometext Preprocessor",
+        "Colômbia",
+        "Índia",
+        "Peru",
+        "México",
       ],
     },
-    {
+{
       numb: 1,
-      category: "General Knowledge",
+      category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "What does SQL stand for?",
-      answer: "Structured Query Language",
+      question: "Que país tem o formato de uma bota?",
+      answer: "Itália"
       options: [
-        "Stylish Question Language",
-        "Stylesheet Query Language",
-        "Statement Question Language",
-        "Structured Query Language",
+        "Butão",
+        "Itália",
+        "Portugal",
+        "México",
       ],
     },
-    {
+{
       numb: 1,
-      category: "General Knowledge",
+      category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "What does XML stand for?",
-      answer: "eXtensible Markup Language",
+      question: "Quem inventou a lâmpada?",
+      answer: "Thomas Edison"
       options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language",
+        "Henry Ford",
+        "Steve Jobs",
+        "Santos Dumont",
+        "Thomas Edison",
       ],
     },
-    {
+{
       numb: 1,
-      category: "General Knowledge",
+      category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "Qual o melhor time?",
-      answer: "São Paulo",
-      options: ["Flamengo", "São Paulo", "Palmeiras", "Santos"],
+      question: "Quanto tempo a Terra demora para dar uma volta completa em torno dela mesma?",
+      answer: "Aproximadamente 24 horas"
+      options: [
+        "Aproximadamente 24 horas",
+        "365 dias",
+        "7 dias",
+        "30 ou 31 dias",
+      ],
     },
-    {
+{
       numb: 1,
-      category: "General Knowledge",
+      category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-      answer: "Richard Branson",
-      options: ["Richard Branson","Alan Sugar", "Donald Trump", "Bill Gates"],
+      question: "A que temperatura a água ferve?",
+      answer: "100°C"
+      options: [
+        "200 ºC",
+        "100°C",
+        "180 ºC",
+        "-10 °C",
+      ],
     },
-    {
-      numb: 2,
-      category: "ecu",
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
       type: "multiple",
       difficulty: "easy",
-      question: "jose viado? ",
-      answer: "sim",
-      options: ["não","naçd", "sim", "sagtefr"],
+      question: "Quais são as fases da Lua?",
+      answer: "Nova, crescente, cheia e minguante"
+      options: [
+        "Nova, cheia, minguante e lua de sangue",
+        "Nova, cheia e superlua",
+        "Nova, crescente, cheia e minguante",
+        "Nova, crescente, cheia, minguante e lua de sangue",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Quantos ossos temos no nosso corpo?",
+      answer: "Monte Everest"
+      options: [
+        "126",
+        "206",
+        "306",
+        "226",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Qual o maior planeta do sistema solar?",
+      answer: "Júpiter"
+      options: [
+        "Marte",
+        "Saturno",
+        "Júpiter",
+        "Terra",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Qual o planeta mais próximo do Sol?",
+      answer: "Mercúrio"
+      options: [
+        "Netuno",
+        "Marte",
+        "Saturno",
+        "Mercúrio",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Quantos continentes existem?",
+      answer: "6"
+      options: [
+        "2",
+        "4",
+        "6",
+        "8",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Quais as duas línguas mais faladas no mundo?",
+      answer: "Inglês e mandarim chinês"
+      options: [
+        "Inglês e mandarim chinês",
+        "Inglês e espanhol",
+        "Inglês e português",
+        "Mandarim chinês e francês",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "O que representam os cinco anéis olímpicos?",
+      answer: "As partes do mundo unidas pelo Olimpismo."
+      options: [
+        "As argolas da ginástica artística.",
+        "Cinco tipos de esporte: de rede, de campo, de combate, de precisão, de invasão.",
+        "As partes do mundo unidas pelo Olimpismo.",
+        " Os símbolos olímpicos: tocha, hino, mascote, lema e medalhas.",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Que cidade brasileira é conhecida por chover todos os dias quase à mesma hora?",
+      answer: "Belém"
+      options: [
+        "Joinville",
+        "Natal",
+        "Rio de Janeiro",
+        "Belém",
+      ],
+    },
+{
+      numb: 1,
+      category: "Conhecimentos Gerais",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Qual o nome popular do cloreto de sódio?",
+      answer: "Sal de cozinha"
+      options: [
+        "Vinagre",
+        "Sal de cozinha",
+        "Papel",
+        "Fermento",
+      ],
+
     },
   ];
   
