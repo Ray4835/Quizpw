@@ -20,7 +20,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Qual a montanha mais alta do mundo?",
-      answer: "Monte Everest"
+      answer: "Monte Everest",
       options: [
         "Pico da Neblina",
         "Dhaulagiri",
@@ -34,7 +34,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Onde se localiza Machu Picchu?",
-      answer: "Peru"
+      answer: "Peru",
       options: [
         "Colômbia",
         "Índia",
@@ -48,7 +48,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Que país tem o formato de uma bota?",
-      answer: "Itália"
+      answer: "Itália",
       options: [
         "Butão",
         "Itália",
@@ -62,7 +62,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Quem inventou a lâmpada?",
-      answer: "Thomas Edison"
+      answer: "Thomas Edison",
       options: [
         "Henry Ford",
         "Steve Jobs",
@@ -76,7 +76,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Quanto tempo a Terra demora para dar uma volta completa em torno dela mesma?",
-      answer: "Aproximadamente 24 horas"
+      answer: "Aproximadamente 24 horas",
       options: [
         "Aproximadamente 24 horas",
         "365 dias",
@@ -90,7 +90,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "A que temperatura a água ferve?",
-      answer: "100°C"
+      answer: "100°C",
       options: [
         "200 ºC",
         "100°C",
@@ -104,7 +104,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Quais são as fases da Lua?",
-      answer: "Nova, crescente, cheia e minguante"
+      answer: "Nova, crescente, cheia e minguante",
       options: [
         "Nova, cheia, minguante e lua de sangue",
         "Nova, cheia e superlua",
@@ -118,7 +118,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Quantos ossos temos no nosso corpo?",
-      answer: "Monte Everest"
+      answer: "206",
       options: [
         "126",
         "206",
@@ -132,7 +132,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Qual o maior planeta do sistema solar?",
-      answer: "Júpiter"
+      answer: "Júpiter",
       options: [
         "Marte",
         "Saturno",
@@ -146,7 +146,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Qual o planeta mais próximo do Sol?",
-      answer: "Mercúrio"
+      answer: "Mercúrio",
       options: [
         "Netuno",
         "Marte",
@@ -160,7 +160,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Quantos continentes existem?",
-      answer: "6"
+      answer: "6",
       options: [
         "2",
         "4",
@@ -174,7 +174,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Quais as duas línguas mais faladas no mundo?",
-      answer: "Inglês e mandarim chinês"
+      answer: "Inglês e mandarim chinês",
       options: [
         "Inglês e mandarim chinês",
         "Inglês e espanhol",
@@ -188,7 +188,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "O que representam os cinco anéis olímpicos?",
-      answer: "As partes do mundo unidas pelo Olimpismo."
+      answer: "As partes do mundo unidas pelo Olimpismo" ,
       options: [
         "As argolas da ginástica artística.",
         "Cinco tipos de esporte: de rede, de campo, de combate, de precisão, de invasão.",
@@ -202,7 +202,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Que cidade brasileira é conhecida por chover todos os dias quase à mesma hora?",
-      answer: "Belém"
+      answer: "Belém",
       options: [
         "Joinville",
         "Natal",
@@ -216,7 +216,7 @@ let questions = [
       type: "multiple",
       difficulty: "easy",
       question: "Qual o nome popular do cloreto de sódio?",
-      answer: "Sal de cozinha"
+      answer: "Sal de cozinha",
       options: [
         "Vinagre",
         "Sal de cozinha",
