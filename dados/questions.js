@@ -14,7 +14,6 @@ let questions = [
         "Buzz Aldrin",
       ],
     },
-    {
       {
       numb: 1,
       category: "Conhecimentos Gerais",
