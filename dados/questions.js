@@ -192,7 +192,7 @@ let questions = [
       options: [
         "As argolas da ginástica artística.",
         "Cinco tipos de esporte: de rede, de campo, de combate, de precisão, de invasão.",
-        "As partes do mundo unidas pelo Olimpismo.",
+        "As partes do mundo unidas pelo Olimpismo",
         " Os símbolos olímpicos: tocha, hino, mascote, lema e medalhas.",
       ],
     },
