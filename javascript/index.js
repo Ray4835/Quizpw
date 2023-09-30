@@ -78,7 +78,7 @@ const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
 next_btn.onclick = () => {
-  if (que_count < questions.length - 1) {
+  if (que_count < questions.length - 10) {
     //if question count is less than total question length
     que_count++; //increment the que_count value
     que_numb++; //increment the que_numb value
