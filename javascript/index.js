@@ -13,6 +13,7 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 var aleatorios = []
+const totalQuestoes = 10
 const loader = document.getElementById("loader");
 loader.classList.add("hidden");
 
@@ -78,7 +79,7 @@ const bottom_ques_counter = document.querySelector("footer .total_que");
 
 
 next_btn.onclick = () => {
-  if (que_count < questions.length - 10) {
+  if (que_count < totalQuestoes) {
     
     que_count++; 
     que_numb++; 
@@ -182,7 +183,7 @@ function showResult() {
       "<span>E parabéns!! 🎉, você fez <p>" +
       userScore * 10 +
       "</p> de <p>" +
-      questions.length * 10 +
+      totalQuestoes * 10 +
       "</p></span>";
     scoreText.innerHTML = scoreTag; 
   } else if (userScore > 1) {
@@ -191,7 +192,7 @@ function showResult() {
       "<span>E legal 😎, você fez  <p>" +
       userScore * 10 +
       "</p> de <p>" +
-      questions.length * 10 +
+      totalQuestoes * 10 +
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   } else {
@@ -200,7 +201,7 @@ function showResult() {
       "<span>e desculpe 😐, Você fez apenas <p>" +
       userScore * 10 +
       "</p> de <p>" +
-      questions.length * 10 +
+      totalQuestoes * 10 +
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   }
@@ -256,7 +257,7 @@ function queCounter(index) {
     "<span><p>" +
     index +
     "</p> de <p>" +
-    questions.length +
+    totalQuestoes +
     "</p> Questões</span>";
   bottom_ques_counter.innerHTML = totalQueCounTag; 
 }
