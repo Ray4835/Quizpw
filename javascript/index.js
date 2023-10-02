@@ -79,7 +79,7 @@ const bottom_ques_counter = document.querySelector("footer .total_que");
 
 
 next_btn.onclick = () => {
-  if (que_count < totalQuestoes) {
+  if (que_count < totalQuestoes -1) {
     
     que_count++; 
     que_numb++; 
